@@ -10,9 +10,9 @@ export default class Navbar extends React.Component {
   render() {
     return (
       <nav>
-        <ul>
-          <NavLink to="/">Home</NavLink>
-        </ul>
+        <NavLink to="/">Rehance</NavLink>
+        <a className="hamburger-menu" >Hamburger</a>
+        <a className="search" href="/search" >Magnifying Glass</a>
       </nav>
     );
   }
